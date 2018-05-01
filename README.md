@@ -1,7 +1,7 @@
-Bitcore Node Dash
+Bitcore Node Veggie
 ============
 
-A Dash full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Dash Core v0.12.1.x](https://github.com/veggiepay/veggie/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Veggie full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Veggie Core v0.12.1.x](https://github.com/veggiepay/veggie/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -11,7 +11,7 @@ npm install -g bitcore-node-veggie
 
 ## Prerequisites
 
-- Dash Core (v0.12.1.x) with support for additional indexing *(see above)*
+- Veggie Core (v0.12.1.x) with support for additional indexing *(see above)*
 - Node.js v0.10, v0.12, v4 or v5
 - ZeroMQ *(libzmq3-dev for Ubuntu/Debian or zeromq on OSX)*
 - ~20GB of disk storage
@@ -31,7 +31,7 @@ bitcore-node-veggie start
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
 
-Please note that [Dash Core v0.12.1.x](https://github.com/veggiepay/veggie/tree/v0.12.1.x) will be downloaded automatically. Once completed the veggied binary should be placed into the &lt;veggie-data-dir&gt; folder specified during node creation.
+Please note that [Veggie Core v0.12.1.x](https://github.com/veggiepay/veggie/tree/v0.12.1.x) will be downloaded automatically. Once completed the veggied binary should be placed into the &lt;veggie-data-dir&gt; folder specified during node creation.
 
 For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 
